@@ -1,0 +1,7 @@
+local Sound = Instance.new("Sound")
+local soundroom = Instance.new("Folder")
+soundroom.Parent = game.Workspace
+Sound.Parent = game.Workspace.soundroom
+Sound.SoundId = "rbxassetid://9112758242"
+Sound.Looped = true
+Sound:Play()
